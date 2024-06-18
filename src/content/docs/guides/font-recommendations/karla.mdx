@@ -1,0 +1,54 @@
+---
+title: Karla
+description: Learn how to get back the original Primary v1.0 default font, Karla!
+tableOfContents: false
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+Karla is a great sans serif font for those who want to add quirkiness to Primary. 
+
+This is a guide especially made for Primary v1.0 users that want to go back to using the old default font of Primary — Karla!
+
+:::tip
+Great as Interface and Text fonts!
+:::
+
+:::caution
+This font was reported to not have Cyrilic script support.
+:::
+
+This setup requires the Style Settings plugin. The steps below includes how to install and use it.
+
+Many of you have requested Karla's presence back in Primary, so here's how to do it.
+
+<Steps>
+1. Start by downloading [Karla](https://fonts.google.com/specimen/Karla) via Google Fonts. Karla is a free font so no purchases needed. On the link, press `Get Font`, and a new page will show with Karla and 2 buttons. Press `Download All`. This will download a `.zip` file.
+2. Once downloaded, extract the contents of the `.zip` file. You should have extracted a folder called `Karla`.
+3. Go inside the `Karla` folder, and in it you should see something along the lines of `Karla-Italic-Variable...-wght.ttf` and `Karla-Variable...-wght.ttf `. These are font files. Install them.
+   - If you're on **Windows**, select the two `.ttf` files, right click, and press `Install all`
+   - If you're on **macOS**, open a `.ttf` file, and press the `Install` button. Do this for both `.ttf` files.
+4. Once installed, go to your Obsidian Vault and open up **Settings**.
+5. Go to **Appearance** tab and scroll down to the Font section. You should see *Interface Font*, *Text Font*, and *Monospace Font*. We're going to apply Karla as our Interface Font and our Text Font.
+6. Under **Interface Font**, click `Manage`.
+7. Under Font Name, find Karla. Once found, press `Add`, and click `Save`.
+8. Do the same for **Text Font**. Under **Text Font**, click `Manage`. Find Karla, press `Add`, and click `Save`.
+9. We're not finished yet though! You might notice that Karla is a bit thicker than usual. If you like it, you can stop here, but if not, keep reading to fix this.
+10. Install [Style Settings](obsidian://show-plugin?id=obsidian-style-settings) via the Community Plugins.
+11. Once installed, go back to the main page of Settings, and go to the **Style Settings** tab.
+12. On the search bar of Style Settings, type `Font Weight`. This should produce results of settings that allow you to change global font weight settings.
+13. Set the followings settings accordingly:
+    - Thin Font Weight: from 150 → 100
+    - Extralight Font Weight: from 250 → 200
+    - Light Font Weight: from 350 → 300
+    - Normal Font Weight: from 450 → 400
+    - Medium Font Weight: from 550 → 500
+    - Semibold Font Weight: from 650 → 600
+    - Bold Font Weight: from 750 → 700
+    - Extrabold Font Weight: from 850 → 800
+    - Black Font Weight: from 900 → 900
+    - Bold Modifier: keep at 200
+14. Once you're done with the font weights, open up the **Command Palette**.
+15. Find `Reload app without saving` and press `Enter`.
+16. And you're done! You should be good to go.
+</Steps>

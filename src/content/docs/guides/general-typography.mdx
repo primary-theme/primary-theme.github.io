@@ -1,0 +1,80 @@
+---
+title: General Typography
+description: Guide to customizing Primary's general interface typographical settings.
+---
+
+import { LinkCard } from '@astrojs/starlight/components';
+
+In this section, we'll be covering the fonts used in Primary and its generally applied settings. This can be helpful when considering customizing Primary's typography.
+
+## Interface and Text Font
+
+Primary uses Inter as its default Interface and Text font. 
+
+Originally, in Primary v1.0, Primary used Karla as its default font. In 2.0, I decided to go for Inter as the default font due to few reasons:
+
+1. Inter has wider language support (more than 800 as of writing), making it better as a default font. A few have reported language support issues in the past, and I would love to support these languages moving forward.
+2. Inter has wider font weight support, and can look incredible across all screens. Windows OS has bad font rendering out of the box, and by using a font created for font displays that holds up to its claims, I can assure that there wouldn't be much of an issue regarding font rendering.
+3. Inter has amazing alternative font feature options. Even though Inter is well known, I feel like activating specific font features can make Inter its own, allowing Primary to garner an even more custom and iconic look. (Though some might argue that Karla gave Primary its original iconic look, which I would also agree with!)
+4. Primary v1.0 originally had a couple of font preset options through Style Settings. For 2.0, I wanted to prioritize supporting larger vaults so I needed to drop the imports to make Primary performant. Additionally, I want to leverage Obsidian's built-in Font customization feature so instead I have created guides and font recommendations so you can import them on your own and ensure that Primary stays as performant as it can!
+
+<LinkCard
+  title="Karla Font Guide"
+  description="Learn how to get back the original Primary v1.0 default font."
+  href="/customization/font-recommendations/karla"
+/>
+
+### Font Features
+
+Font features are turned on using CSS by default in Primary. This means that, if you have a different font imported and used using Obsidian's built-in Font Manager, you may find it looking off if the incorrect font features are affected.
+
+In this section, we'll cover what features are turned on for this font and how to deactivate it.
+
+The font features used are:
+- Contextual Alternates `calt` is turned on
+- Case Alternates `case` is turned off
+- Compositions `ccmp` is turned on
+- Round quotes & comma `ss03` is turned on
+- Alternate number one `cv01` is turned on
+- Lower-case L with tail `cv05` is turned on
+- Simplified u `cv06` is turned on
+- Upper-case i with serif `cv08` is turned off
+- Single-storey a `cv11` is turned on
+- Compact f `cv12` is turned off
+- Compact t `cv13` is turned off
+
+These
+
+### Font Weight
+
+Generally, font weight is increased by 50 points from the original increments. The new font weight defaults are the following:
+
+- Thin of `100` is now `150`
+- Extralight of `200` is now `250`
+- Light of `300` is now `350`
+- Normal of `400` is now `450`
+- Medium of `500` is now `550`
+- Semibold of `600` is now `650`
+- Bold of `700` is now `750`
+- Extrabold of `800` is now `850`
+- Black of `900` is kept at `900` (900 is the limit)
+
+It is recommended that if you use your own fonts that you bring these font weights back down to 50 points to get the expected look.
+
+Additionally, Obsidian uses a *Bold Modifier* to turn certain components into bold, using it as an addened to normal. This variable is set to `200` by default.
+
+Font weights for markdown syntaxes can be customized separately.
+
+All of these can be customizable via Style Settings. 
+
+## Monospace Font
+
+For Monospace, Primary uses Cascadia Code.
+
+Cascadia Code was chosen for its slightly quirky personality. Pairs well with Primary's color scheme!
+
+We also has a few font features turned on for this font.
+
+### Font Features
+
+- "calt" 1, "ss01" 1, "ss02" 1, "ss03" 1, "ss05" 1, "ss19" 1, "zero" 1;

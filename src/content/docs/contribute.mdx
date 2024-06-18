@@ -1,0 +1,62 @@
+---
+title: Contributing
+description: Learn how you can contribute to Primary.
+---
+
+Primary from its inception has always been an open source project, community backed, and community driven. I love seeing pull requests, feature requests, and screenshots or message of how users use Primary!
+
+Here's how you can contribute, no matter if you're a non-developer, a dev, or just want to share stuff.
+
+## Non-developers
+
+If you are not a developer, a great way to contribute to the theme is by reporting issues, enhancement ideas, or feature requests! You can do so through the [Issues Page]().
+
+**Don't have a GitHub account?** Consider sending a message through [Twitter]() or send me a report directly via [Email](mailto:contact.ceciliamay@gmail.com).
+
+Another great way to contribute is by sharing screenshots of how you use Primary! You can share them on Twitter and tagging @primarytheme or me @ceciliamay_ . You can also send them through the [Discussions Page]().
+
+## Developers
+
+### Build Instructions
+
+Let's start by installing the essentials.
+
+Primary is written with a mix of CSS and [Sass](https://sass-lang.com/guide/). If you haven't, do install Sass. 
+
+```
+sudo gem install sass
+```
+
+After that, we need to install [GruntJS](https://gruntjs.com/configuring-tasks). Grunt allows developers to run various tasks that would otherwise be tedious. In our case, we want our repo to follow Obisidan's repository guidelines while making it easy for us to debug.
+
+Prerequisites would be installing any [NodeJS](https://nodejs.org/en/download/package-manager/current) version.
+
+```
+npm install -g grunt-cli
+```
+
+### Setting up your Theme Dev Environment
+
+Within the repo's path, run `npm install` to build all the necessary modules.
+
+Then, go to the `.env.example` and **define your local Obsidian vault path**.
+
+Update the `OBSIDIAN_PATH` to the local path of your Obsidian theme folder.
+
+Once done, rename the file from `.env.example` to `.env`.
+
+### Code, Build and Test
+
+Run the command below when you start writing code and testing.
+
+```
+npx grunt
+```
+
+:::note[What does the command do?]
+The command activates the grunt file so that when you save a file in the repo, the Grunt file watches for your save, compiles the CSS and Sass files, minifies it, and copies it in to two locations — one into this repository, and one into the defined path in the `.env` file. This ensures we have an identical copy for testing live within your vault, and one ready for publishing!
+:::
+
+### License
+
+// TODO: Write Licensing terms.

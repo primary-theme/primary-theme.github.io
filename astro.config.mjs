@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Primary Theme',
+			logo: {
+				src: '/src/assets/logo.svg',
+			},
 			description: 'Primary is a theme for people looking for a certain nostalgic warmness now available again for Obsidian. Read the docs to learn how to customize!',
 			social: {
 				'x.com': 'https://dub.sh/x/primary',

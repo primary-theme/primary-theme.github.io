@@ -4,6 +4,8 @@ description: Learn about the custom icons used in Primary.
 tableOfContents: false
 ---
 
+![Custom Icons using Flaticons UIcons](/src/assets/demos/interface_custom-icons.png)
+
 Primary offers custom iconography out of the box using the [Flaticons UIcons Library](https://www.flaticon.com/icon-fonts-most-downloaded) in the Regular Rounded style.
 
 Primary also keeps some of Obsidian's original icons (they use the [Lucide Icon Library](https://lucide.dev/icons/)), if those icons are deemed a better fit for its usage. Lucide and Flaticons fit well together!

@@ -4,6 +4,8 @@ description: Learn about how animations have been added to Primary.
 tableOfContents: false
 ---
 
+![Animations in Primary](/src/assets/demos/interface_animation.mp4)
+
 With the goal to merge play with work, I decided to add subtle animations to complete the vibe.
 
 Primary is a fun playful theme, so *Popping/Sliding Up* and *Sliding Down* animations have been added to specific components in the Obsidian interface.

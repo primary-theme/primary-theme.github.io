@@ -4,7 +4,7 @@ description: Highlight your current line for better writing visibility!
 tableOfContents: false
 ---
 
-![Active Line Highlighting in Primary](/src/assets/demos/interface_active-line-highlighting.png)
+![Active Line Highlighting in Primary](/src/public/assets/demos/interface_active-line-highlighting.png)
 
 If you need better visibility of which line you are at in your notes, you can toggle **Active Line Highlighting** through Primary Theme Settings (via Style Settings plugin).
 

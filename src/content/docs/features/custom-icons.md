@@ -4,7 +4,7 @@ description: Learn about the custom icons used in Primary.
 tableOfContents: false
 ---
 
-![Custom Icons using Flaticons UIcons](/src/assets/demos/interface_custom-icons.png)
+![Custom Icons using Flaticons UIcons](/src/public/assets/demos/interface_custom-icons.png)
 
 Primary offers custom iconography out of the box using the [Flaticons UIcons Library](https://www.flaticon.com/icon-fonts-most-downloaded) in the Regular Rounded style.
 

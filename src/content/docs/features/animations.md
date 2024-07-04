@@ -4,7 +4,7 @@ description: Learn about how animations have been added to Primary.
 tableOfContents: false
 ---
 
-![Animations in Primary](/src/public/assets/demos/interface_animation.mp4)
+![Animations in Primary](/src/media/demos/interface_animation.mp4)
 
 With the goal to merge play with work, I decided to add subtle animations to complete the vibe.
 

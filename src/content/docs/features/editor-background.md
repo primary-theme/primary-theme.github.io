@@ -4,7 +4,7 @@ description: Change your editor's background from plain color to notebook lined 
 tableOfContents: false
 ---
 
-![Editor Background Pattern for Primary](/src/public/assets/demos/interface_editor-bg.png)
+![Editor Background Pattern for Primary](/src/media/demos/interface_editor-bg.png)
 
 By default, Primary provides you a plain cream color notebook-esque quality to the editor pane.
 

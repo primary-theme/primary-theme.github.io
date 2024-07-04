@@ -14,7 +14,7 @@ export default defineConfig({
       github: 'https://git.new/primary/obsidian'
     },
     customCss: [
-      './src/tailwind.css',
+      './src/globals.css',
     ],
     sidebar: [{
       label: 'Start Here',

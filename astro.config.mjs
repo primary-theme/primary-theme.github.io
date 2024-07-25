@@ -28,6 +28,9 @@ export default defineConfig({
         label: 'Animations',
         link: '/features/animations/'
       }, {
+        label: 'Colorful Folders',
+        link: '/features/colorful-folders/'
+      }, {
         label: 'Editor Background Pattern',
         link: '/features/editor-background/'
       }, {

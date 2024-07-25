@@ -4,7 +4,11 @@ description: Change your editor's background from plain color to notebook lined 
 tableOfContents: false
 ---
 
-![Editor Background Pattern for Primary](/src/media/demos/interface_editor-bg.png)
+![Editor Background Pattern for Primary](../../../media/demos/interface_editor-bg.png)
+
+:::caution
+Editor Background Pattern is a feature available inside Primary only through the [Style Settings](obsidian://show-plugin?id=obsidian-style-settings) plugin.
+:::
 
 By default, Primary provides you a plain cream color notebook-esque quality to the editor pane.
 

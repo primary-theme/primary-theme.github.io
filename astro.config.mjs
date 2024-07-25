@@ -36,6 +36,9 @@ export default defineConfig({
       }, {
         label: 'Multicolored Highlights',
         link: '/features/multicolored-highlights/'
+      }, {
+        label: 'Checklists and Checkbox Icons',
+        link: '/features/checkboxes/'
       }]
     }, {
       label: 'Supported Plugins',

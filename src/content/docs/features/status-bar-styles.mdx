@@ -1,0 +1,62 @@
+---
+title: Status Bar Styles
+description: Customize how your status bar behaves in Primary for Obsidian with Style Settings.
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+Like the Ribbon, some folks have different needs when it comes to their status bars. Some use it extensively, filling their screen with gizmo. Some don't need to see it. And some want the "I hope you're there when I need you." treatment.
+
+From 2.9.0 onwards, Primary allows you to customize how your status bar behaves to better fit your workflow.
+
+:::caution
+Status Bar Styles is a feature available inside Primary only through the [Style Settings](obsidian://show-plugin?id=obsidian-style-settings) plugin.
+:::
+
+## Status Bar Styles
+
+### On Top
+This is the default Obsidian styling.
+
+### Visible Full Length
+This makes the status bar take up the whole bottom horizontal space of Obsidian. Good for those who have a ton of gizmo on their status bars and need them most of the time.
+
+### Slide Up Full Length
+Same as Visible Full Length but is hidden at rest. When hovered, the full length status bar slides up and shows. Good for those with a ton of gizmo on their status bars but only need to see them occassionally.
+
+### Slide Out
+This hides the status bar at rest. When you hover over the area of the status bar, it slides out from the sides.
+
+### Floating
+Similar to the default Obsidian styling but it is detached from the corners (hence, floating), and by default is sheer at rest and opaque on hover.
+
+## Item Visibility
+
+Primary also offers a few preset options of status bar item visibility. This targeted to those that don't use status bars that much.
+
+We have three simple options:
+
+- Show Everything
+- Sync Only
+- Word Count Only
+
+I personally use *Sync Only*.
+
+## Customization
+
+:::note[Is this feature customizable?]
+Yes! With the [Style Settings](obsidian://show-plugin?id=obsidian-style-settings) plugin.
+:::
+
+Customization for this feature is available from Primary 2.9.0 and above.
+
+You can customize the background color, border width (or no border), margin, etc.
+
+Make sure to have Style Settings installed and turned on. Here are the steps to customize them:
+
+<Steps>
+1. In your Obsidian vault, open up Settings.
+2. Under Community Plugins, click on **Style Settings**. Optionally, if you prefer to customize outside of the Settings modal, you can open up Style Settings through the Command Palette and looking for `Style Settings: Show style settings view`.
+3. On the Style Settings tab, navigate to Primary Theme Settings -> Interface -> Status Bar
+4. And there you go! Don't forget to read the notes and description.
+</Steps>

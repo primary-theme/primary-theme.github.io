@@ -42,6 +42,9 @@ export default defineConfig({
       }, {
         label: 'Checklists and Checkbox Icons',
         link: '/features/checkboxes/'
+      }, {
+        label: 'Progress Bars',
+        link: '/features/progress-bars/'
       }]
     }, {
       label: 'Supported Plugins',

@@ -1,0 +1,44 @@
+---
+title: Progress Bars
+description: Learn how to utilize progress bars in Obsidian!
+tableOfContents: false
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+{/* ![Progress Bars for Primary]() */}
+
+Primary offers styled Progress Bars out of the box, which you can use inside your notes.
+
+This isn't a markdown feature so implementing it will be via using HTML tags.
+
+Here's the code you can use to start:
+
+```html
+<progress  max="100" value="10"></progress>
+```
+
+- `progress` activates the progress bar element. Don't forget the closing tag `</progress>` — or else it won't show!
+- `max` is the maximum value of the progress bar.
+- `value` is the current value of the progress bar. If you set the value to 5, it will cover only 5% of the progress bar.
+
+:::caution
+Because Primary's progress bars change colors when you reach certain percentages, you can only use Primary's styled progress bars with `100` as your maximum value.
+
+The progress bar will look as intended if used with any value from `0` to `100` with a maximum value of `100`. You will not get the theme's intended styling if say you put your maximum value as `10` and you use only values `0` to `10`.
+:::
+
+## Customization
+
+:::note[Is this feature customizable?]
+Yes! With the [Style Settings](obsidian://show-plugin?id=obsidian-style-settings) plugin.
+:::
+
+Customization for this feature is available from Primary 2.9.0 and above. Make sure to have Style Settings installed and turned on. Here are the steps to customize them:
+
+<Steps>
+1. In your Obsidian vault, open up Settings.
+2. Under Community Plugins, click on **Style Settings**. Optionally, if you prefer to customize outside of the Settings modal, you can open up Style Settings through the Command Palette and looking for `Style Settings: Show style settings view`.
+3. On the Style Settings tab, navigate to Primary Theme Settings -> Components -> Progress
+4. Under Progress, you'll find the all customization options such as width, height, and colors.
+</Steps>

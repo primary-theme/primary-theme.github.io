@@ -44,4 +44,17 @@
 		],
 		"description": "add json snippet for presets"
 	},
+	"Add Page YAML": {
+		"scope": "markdown, mdx, md",
+		"prefix": "page yaml",
+		"body": [
+			"---",
+			"title: $1",
+			"description: $2",
+			"tableOfContents: $3",
+			"---",
+			"$4"
+		],
+		"description": "add json snippet for presets"
+	},
 }

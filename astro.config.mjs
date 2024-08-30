@@ -107,6 +107,10 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              label: "Optimizing Primary",
+              link: "/guides/optimization",
+            },
           ],
         },
         {

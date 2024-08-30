@@ -1,0 +1,55 @@
+---
+title: Performance Optimization
+description: A guide on optimizing Primary for low resource computers or giant vaults.
+tableOfContents: true
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+In this guide, we'll go through some options to optimize performance Primary.
+
+Primary, despite its effort to stay as minimal on resources while serving aesthetics, may still be resource intensive for some computers or vaults. This is due to the extensive usage of CSS box-shadows and blurs which may cause issues for some.
+
+Most mid-range computers (and above) today should be able to handle Primary's performance. But if it's not handling it well please proceed with these options.
+
+## Remove Popup Background Blur
+
+The easiest way to start optimizing Primary is by removing the background blur on popups such as the Settings, Command Palette, Dialog boxes, etc.
+
+### Style Settings
+
+:::caution
+This option requires installing the [Style Settings](obsidian://show-plugin?id=obsidian-style-settings) plugin.
+:::
+
+<Steps>
+1. In your Obsidian vault, open up Settings.
+2. Under Community Plugins, click on **Style Settings**. Optionally, if you prefer to customize outside of the Settings modal, you can open up Style Settings through the Command Palette and looking for `Style Settings: Show style settings view`.
+3. On the Style Settings tab, navigate to Primary Theme Settings -> Interface -> Animations and Effects
+4. Toggle `Remove Popup Background Blur`.
+</Steps>
+
+### Snippet
+
+If you don't want to use the Style Settings plugin or if you're on Restricted Mode and prefer a plugin-less route, here's the snippet to remove background blur.
+
+:::caution
+This option requires a text editor like Visual Studio Code, Zed, Sublime Text or Notepad++.
+:::
+
+<Steps>
+1. Open up your text editor.
+2. Copy and paste the Popup Background Blur snippet below:
+    ```css
+    body {
+        --popup-bg-blur: 0px;
+    }
+    ```
+3. Save the file as `primary_background-blur-adjustment.css` inside your vault's snippet folder. You may find your snippet folder inside your vault with the folderpath of `Vault Name/.obsidian/snippets`. If you still can't find this folder, you can open it up by going to the Appearance tab. Scroll down and you'll find a section called, **CSS Snippets**. On the top right of that section, a folder icon can be seen. Clicking on that icon opens up the snippets folder in your computer.
+4. Once you've saved your file, turn it on. You can do this by going to your Obsidian and opening up Settings. Then go to the Appearance tab. Scroll down and you'll find a section called, **CSS Snippets**. If you're not seeing your new snippet file's name, press the reload button on the top right. It should load the snippet.
+5. Once you see your newly created snippet on the list, toggle the snippet on.
+</Steps>
+
+{/* ## Remove Box shadows
+
+## Remove Animations */}

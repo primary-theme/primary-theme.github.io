@@ -94,11 +94,20 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              label: "Presets",
+              items: [
+                {
+                  label: "Overview",
+                  link: "/guides/presets/overview",
+                },
+                {
+                  label: "Note Embed",
+                  link: "/guides/presets/note-embed",
+                },
+              ],
+            },
           ],
-        },
-        {
-          label: "Presets",
-          link: "/presets/",
         },
         {
           label: "Help",

@@ -1,0 +1,80 @@
+---
+title: Note Embed Presets
+description: Explore preset options for note embed styling in Primary for Obsidian!
+---
+
+import { Steps } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Clean and Seamless without Title
+
+```json
+{
+  "primary-theme@@embed-background@@dark": "#00000000",
+  "primary-theme@@embed-background@@light": "#00000000",
+  "primary-theme@@embed-hide-title": true,
+  "primary-theme@@embed-border-top-width": "0px",
+  "primary-theme@@embed-border-end-width": "0px",
+  "primary-theme@@embed-border-bottom-width": "0px",
+  "primary-theme@@embed-border-start-width": "0px"
+}
+```
+
+## Clean and Seamless with Title
+
+```json
+{
+  "primary-theme@@embed-background@@dark": "#00000000",
+  "primary-theme@@embed-background@@light": "#00000000",
+  "primary-theme@@embed-title-border-width": "0px",
+  "primary-theme@@embed-border-top-width": "0px",
+  "primary-theme@@embed-border-end-width": "0px",
+  "primary-theme@@embed-border-bottom-width": "0px",
+  "primary-theme@@embed-border-start-width": "0px"
+}
+```
+
+## Default but Borderless
+
+```json
+{
+  "primary-theme@@embed-title-border-width": "0px",
+  "primary-theme@@embed-border-top-width": "0px",
+  "primary-theme@@embed-border-end-width": "0px",
+  "primary-theme@@embed-border-bottom-width": "0px",
+  "primary-theme@@embed-border-start-width": "0px"
+}
+```
+
+## Round Tabby with Thick Left Border
+
+```json
+{
+  "primary-theme@@embed-title-border-width": "0px",
+  "primary-theme@@embed-border-radius": "0px 12px 12px 0px",
+  "primary-theme@@embed-border-top-width": "0px",
+  "primary-theme@@embed-border-end-width": "0px",
+  "primary-theme@@embed-border-bottom-width": "0px",
+  "primary-theme@@embed-border-start-width": "3px"
+}
+```
+
+## Tiny Uppercased Note Embed Title
+
+```json
+{
+  "primary-theme@@embed-title-font-size": "10px",
+  "primary-theme@@embed-title-font-weight": 450,
+  "primary-theme@@embed-title-text-transform": "uppercase",
+  "primary-theme@@embed-title-letter-spacing": "1px",
+  "primary-theme@@embed-title-border-style": "solid"
+}
+```
+
+The preset also works with `dashed`, or `dotted` Embed Title Border Style.
+
+<LinkCard
+  title="Get Notified for New Presets"
+  description="Be the first to be notified for when a new Preset comes out by subscribing to Primary Theme Updates."
+  href="https://dub.sh/primary/inbox"
+/>

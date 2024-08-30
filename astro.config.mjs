@@ -126,6 +126,16 @@ export default defineConfig({
           link: "/about/",
         },
       ],
+      head: [
+        { // seline.so analytics setup
+          tag: 'script',
+          attrs: {
+            src: 'https://cdn.seline.so/seline.js',
+            'data-token': process.env.SELINE_TOKEN,
+            defer: true,
+          },
+        },
+      ],
     }),
     tailwind({
       // Disable the default base styles:
